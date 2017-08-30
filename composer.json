@@ -9,12 +9,14 @@
         { "name": "Olivier Lechevalier", "email": "olivier.lechevalier@gmail.com" }
     ],
     "require": {
-        "php": "^5.4 || ^7.0",
+        "php": ">=5.4",
         "ext-hash": "*",
+        "ext-mongodb": "^1.2.0",
         "mongodb/mongodb": "^1.0.1"
     },
     "require-dev": {
-        "phpunit/phpunit": "^5.7 || ^6.0"
+        "phpunit/phpunit": "^4.8 || ^5.4",
+        "facile-it/paraunit": "^0.8.2"
     },
     "provide": {
         "ext-mongo": "1.6.14"
