@@ -1,7 +1,7 @@
 {
-    "name": "alcaeus/mongo-php-adapter",
+    "name": "lyallsv/mongo-php-adapter",
     "type": "library",
-    "description": "Adapter to provide ext-mongo interface on top of mongo-php-libary",
+    "description": "Adapter to provide ext-mongo interface on top of mongo-php-libary that will install on 5.4 for migration purposes",
     "keywords": ["mongodb", "database"],
     "license": "MIT",
     "authors": [
