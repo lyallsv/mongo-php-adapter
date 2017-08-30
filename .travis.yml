@@ -6,6 +6,7 @@ services:
   - mongodb
 
 php:
+  - 5.4
   - 5.6
   - 7.0
   - 7.1
@@ -26,6 +27,7 @@ addons:
 matrix:
   fast_finish: true
   include:
+    - php: 5.4
     - php: 5.6
       env: DRIVER_VERSION=stable LEGACY_DRIVER_VERSION=stable COMPOSER_FLAGS="--prefer-dist --prefer-lowest"
       addons:
